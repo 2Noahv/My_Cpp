@@ -19,7 +19,7 @@ int main()
     }
 
     int Test = 10;
-   switch (Test)
+    switch (Test)
    {
        case 10:
        break;
@@ -31,8 +31,8 @@ int main()
        break;
    } 
 
-int Test = 10;
-   switch (Test)
+    int Test = 10;
+    switch (Test)
    {
        case 10:
        break;
