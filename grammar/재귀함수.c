@@ -2,7 +2,7 @@
 int Factorial(int _Count)
 {
     int iValue = 1;
-    for (int j = 0; j < _Count - 1; ++J)
+    for (int j = 0; j < _Count - 1; ++j)
     {
         iValue *= (j + 2);
     }

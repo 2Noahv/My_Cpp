@@ -2,7 +2,7 @@
 // 표준 입출력 함수가 구현되어 있는 기능의 헤더를 참조한다.
 // Visual Studio의 라이브러리의 기능을 참조 할 수 있다.
 
-int Add(int a, int b)
+int Add(int a, int b)   // 함수
 {
     return a + b;
 }
