@@ -19,8 +19,8 @@ typedef struct _tagNode
 // 연결형 리스트 객체 만들기
 typedef struct _tagList
 {
-    tNode*  pHeadNode; // 노드의 첫번째 주소
-    int     iCount;       // 리스트가 관리하는 총 데이터 개수
+    tNode*  pHeadNode;      // 노드의 첫번째 주소
+    int     iCount;         // 리스트가 관리하는 총 데이터 개수
 
 } tLinkedList;
 

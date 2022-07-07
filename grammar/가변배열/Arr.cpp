@@ -27,6 +27,7 @@ void Reallocate(tArr *_pArr)
 {
     // 1. 2배 더 큰 공간을 동적할당 한다.
     int *pNew = (int *)malloc(_pArr->iMaxCount * 2 * sizeof(int));
+    // 말록으로 리턴된 새로운 공간에 주소를 지역변수로 받아야 한다. 
     // Reallocate 함수의 int *pNew의 지역변수는 함수가 종료되면 사라진다.
 
     // 2. 기존 공간에 있던 데이터들을 새로 할당한 공간으로 복사 시킨다.
@@ -63,7 +64,7 @@ void PushBack(tArr *_pArr, int _iData) // 추가할 주소, 넣어 줄 데이터
 
 void ReleaseArr(tArr *_pArr)
 {
-    free(_pArr->pInt);
+    free(_pArr->pInt);    // 힙 메모리 해제라서 iCount, MCount가 0
     _pArr->iCount = 0;
     _pArr->iMaxCount = 0;
 }
