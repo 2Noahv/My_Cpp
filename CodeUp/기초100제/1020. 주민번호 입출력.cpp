@@ -5,12 +5,10 @@ using std::cout;
 
 int main()
 {
+    int frt, rer;
 
-    int a;
-
-    cin >> a;
-
-    cout << a << " " << a << " " << a;
+    scanf_s("%d-%d", &frt, &rer);
+    printf("%06d%d", frt, rer);
 
     return 0;
 }
