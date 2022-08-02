@@ -5,7 +5,7 @@ using std::cout;
 
 int main()
 {
-    int n, a;
+    int n;
     int array[10000] = {};
 
     cin >> n;
